@@ -1,0 +1,19 @@
+
+{
+  "name": "BusSnooze - Alarme de Proximidade",
+  "short_name": "BusSnooze",
+  "description": "Acorde antes de chegar ao seu ponto de ônibus.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/252/252030.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

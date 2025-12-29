@@ -1,0 +1,7 @@
+{
+  "name": "BusSnooze - Wake Up Alarm",
+  "description": "A smart proximity alarm application designed for commuters. Set a destination on the map and receive a loud wake-up alert when you enter a defined radius of your stop, ensuring you never miss your bus or train stop again.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
