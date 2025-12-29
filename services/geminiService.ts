@@ -1,10 +1,10 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-
 export const getTravelTips = async (destinationName: string) => {
   try {
+    // FIX: Initialize GoogleGenAI instance right before making an API call to ensure it uses the current context's API key.
+    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: `The user is traveling to "${destinationName}" and wants to sleep on the bus. 
